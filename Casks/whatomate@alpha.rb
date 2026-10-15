@@ -1,18 +1,18 @@
 cask "whatomate@alpha" do
-  version "1.0.0-a2"
+  version "1.0.0-a3"
 
   on_macos do
-    sha256 "e3aa2f598b01d0c46a0046e25f9a652aa47a1d09693fb1711a278ffda8b64044"
+    sha256 "3b25efab9ecdb30af253eb86b4fde3dcc624411beacb4f1f62086d1b5631aa95"
 
     url "https://github.com/trysoft-team/whatomate/releases/download/v#{version}/whatomate_#{version}_darwin_universal.tar.gz"
   end
   on_linux do
     on_arm do
-      sha256 "c8bdee10fc4d8f3115e49323b42b47e12148b626130b550ad3478f89fce4a566"
+      sha256 "9e7c07f6cd2730b8c364071211c959ac85c8b90ed40e1bb770fb523064c6106f"
       url "https://github.com/trysoft-team/whatomate/releases/download/v#{version}/whatomate_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "4772514ae7e9e1e5b4b30137c733a2e3accf1f9dd0bbe5e8f3b575d27873deea"
+      sha256 "56e3404870c89e84e02780c79b6fa3af536815b7f40800ec43955002d9b6e582"
       url "https://github.com/trysoft-team/whatomate/releases/download/v#{version}/whatomate_#{version}_linux_amd64.tar.gz"
     end
   end
